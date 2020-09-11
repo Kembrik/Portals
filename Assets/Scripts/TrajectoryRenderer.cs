@@ -5,6 +5,7 @@ using UnityEngine;
 public class TrajectoryRenderer : MonoBehaviour
 {
     private LineRenderer lineRendererComponent;
+
     private void Start()
     {
         lineRendererComponent = GetComponent<LineRenderer>();

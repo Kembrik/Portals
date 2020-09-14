@@ -74,6 +74,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 1879347345}
   End: {fileID: 1878625422}
+  ChanceFromDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.0024906674
+      outSlope: -0.0024906674
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 22.696943
+      value: 0.94346946
+      inSlope: -0.0056319335
+      outSlope: -0.0056319335
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 125.16625
+      value: 0.044485807
+      inSlope: -0.005282272
+      outSlope: -0.005282272
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 150
+      value: 0
+      inSlope: -0.0017913448
+      outSlope: -0.0017913448
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!65 &1893285407
 BoxCollider:
   m_ObjectHideFlags: 0

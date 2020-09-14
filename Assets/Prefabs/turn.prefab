@@ -89,6 +89,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 1173420207672277467}
   End: {fileID: 3236151286631937748}
+  ChanceFromDistance:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0023569067
+      outSlope: 0.0023569067
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 28.905035
+      value: 0.06812647
+      inSlope: 0.0059536225
+      outSlope: 0.0059536225
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 120.41888
+      value: 0.9421146
+      inSlope: 0.0057535875
+      outSlope: 0.0057535875
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 150
+      value: 1
+      inSlope: 0.001956836
+      outSlope: 0.001956836
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &6822346612291541913
 GameObject:
   m_ObjectHideFlags: 0

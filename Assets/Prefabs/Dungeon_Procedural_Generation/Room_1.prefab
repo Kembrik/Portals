@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8787198056584577772}
+  - component: {fileID: 5115247193682360575}
   m_Layer: 0
   m_Name: Room_1
   m_TagString: Untagged
@@ -33,6 +34,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5115247193682360575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787198056584577773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1226e007f41d78b4c82b2c58d632ed89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DoorU: {fileID: 0}
+  DoorR: {fileID: 5005119675168187175}
+  DoorD: {fileID: 0}
+  DoorL: {fileID: 0}
+  Meshes:
+  - {fileID: 2100000, guid: 016249a52da11a646a99b72c5a1df29e, type: 2}
+  - {fileID: 2100000, guid: 0d979adbe697bf245b50a973beee5eaa, type: 2}
 --- !u!1001 &5443467042115957858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -248,10 +268,16 @@ PrefabInstance:
     - target: {fileID: 4361639210923170863, guid: 6493b8c83e1338e4ab00b05ae08641b7,
         type: 3}
       propertyPath: m_Name
-      value: door
+      value: doorR
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6493b8c83e1338e4ab00b05ae08641b7, type: 3}
+--- !u!1 &5005119675168187175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4361639210923170863, guid: 6493b8c83e1338e4ab00b05ae08641b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8787198056183004936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5637963020975454621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4020719874279851669, guid: 6493b8c83e1338e4ab00b05ae08641b7,
